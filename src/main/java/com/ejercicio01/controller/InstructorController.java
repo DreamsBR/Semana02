@@ -23,7 +23,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/instructor")
-@Api(value = "/instructor")
 public class InstructorController {
     @Autowired
     private InstructorService service;
